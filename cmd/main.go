@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// db, err := gorm.Open("mysql", "user:password@(localhost)/dbname?charset=utf8mb4&parseTime=True&loc=Local")
-	db, err := gorm.Open("mysql", "fjh:1@(127.0.0.1:3306)/mysql_study?charset=utf8&parseTime=true&loc=Local")
+	db, err := gorm.Open("mysql", "fjh:1@(10.0.1.238:3306)/mysql_study?charset=utf8&parseTime=true&loc=Local")
 	if err != nil {
 		fmt.Println("connect db error: ", err)
 	}
